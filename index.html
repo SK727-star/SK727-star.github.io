@@ -6,11 +6,12 @@
     <style>
       /* グローバルスタイル */
       a {
-        color: #ff0000;
+        color: #f00;
       }
 
       /* SNSスタイル */
       .social-link{
+        background: rgba(150,150,150,0.5);
         color: blue;
       }
 
@@ -23,6 +24,15 @@
       }
 
             /* 核実験場 */
+            h1{
+              display: block;
+              width: 3cm;
+              font-size: 20px;
+              border: 1px solid #000;
+            }
+            /* a{
+              color: #b64cfc !important;
+            } */
             /* div.bio-box{
               border: 1px solid green;
             } */
@@ -31,15 +41,15 @@
   </head>
 
   <body>
-    <h1 class="social-link">I'm an h1</h1>
+    <h1>I'm an h1</h1>
     <ul>
-      <li>
+      <li class="social-link">
         <a href="https://example.com/">Link</a>
       </li>
-      <li>
+      <li class="social-link">
         <a href="https://example.com/">Link</a>
       </li>
-      <li>
+      <li class="social-link">
         <a href="https://example.com/">Link</a>
       </li>
     </ul>
